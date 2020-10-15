@@ -1,0 +1,28 @@
+@font-face{
+    font-family :'Roboto';
+    src : url('./fonts/Roboto/Roboto-Light.ttf') format('truetype');
+}
+
+/*html 바깥쪽 빨간 배경*/
+html { 
+    background-color : #9d1c20;
+    width : 1440px;
+    height : 900px;
+    position : absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+/*body 모서리 둥근 사각형*/
+body {
+    background-color : #ffffff;
+    width : 1195px;
+    height : 746px;
+    border-radius : 10px;
+    position: absolute;
+    left: 8.47%;
+    right: 8.54%;
+    top: 8.56%;
+    bottom: 8.56%;
+}
