@@ -5,14 +5,14 @@
 <head>
     <meta charset = "utf-8">
     <title>경희한의원</title>
-    <link rel = 'stylesheet' href = 'background.css'/>
-    <link rel = 'stylesheet' href = 'style.css'/>
+    <link rel = 'stylesheet' href = 'css/background.css'/>
+    <link rel = 'stylesheet' href = 'css/style.css'/>
 </head>   
 
 
 <body id = 'colorCont'>
     <main>
-        <a href = './main1.html'><img id = 'logo3' src='./images/logo.png' alt='Kyunghee Oriental Clinic'></a>
+        <a href = 'http://apple3095.dothome.co.kr/index.html'><img id = 'logo3' src='./images/logo.png' alt='Kyunghee Oriental Clinic'></a>
         <div id = selectGuide>해당하는 사항만 클릭해주세요</div>
         <script type='text/javascript' src='selectSymptom.js'></script>
         <button id = select1 onclick = 'colorChange()'>고혈압</button>

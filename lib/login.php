@@ -8,7 +8,7 @@
 <?php
 echo "MySql 연결 테스트<br>";
  
-$db = mysqli_connect("localhost", "root", "ye6428ye!@", "kyunghee_db");
+$db = mysqli_connect("localhost", "apple3095", "ye6428ye!", "apple3095");
  
 if($db){
     echo "connect : 성공<br>";
