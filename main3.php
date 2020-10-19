@@ -6,7 +6,7 @@
     <meta charset = "utf-8">
     <title>경희한의원</title>
     <link rel = 'stylesheet' href = 'css/background.css'/>
-    <link rel = 'stylesheet' href = 'css/style.css'/>
+    <link rel = 'stylesheet' href = 'css/style2.css'/>
 </head>   
 
 

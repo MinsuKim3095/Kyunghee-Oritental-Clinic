@@ -26,7 +26,5 @@
             header('location:http://apple3095.dothome.co.kr/main3.php');
         mysqli_close($mysqli);
         ?>
-
-        <input type='button' value='메인으로 가기' onclick="location'=http://apple3095.dothome.co.kr/main2.php'">
      </body>
 </html>

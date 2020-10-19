@@ -1,26 +1,48 @@
-<!DOCTYPE html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>MySql-PHP 연결 테스트</title>
-</head>
-<body>
- 
-<?php
-echo "MySql 연결 테스트<br>";
- 
-$db = mysqli_connect("localhost", "apple3095", "ye6428ye!", "apple3095");
- 
-if($db){
-    echo "connect : 성공<br>";
-}
-else{
-    echo "disconnect : 실패<br>";
-}
- 
-$result = mysqli_query($db, 'SELECT VERSION() as VERSION');
-$data = mysqli_fetch_assoc($result);
-echo $data['VERSION'];
-?>
- 
-</body>
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>patient info</title>
+    <body>
+        <?php
+        $host = 'localhost';
+        $user = 'apple3095';
+        $pw = 'ye6428ye!';
+        $dbName = 'apple3095';
+        $connect = new mysqli($host, $user, $pw, $dbName);
+
+        $join_patientName=$_POST['join_patientName'];
+        $join_patientTel=$_POST['join_patientTel'];
+
+        $query = "SELECT * FROM patient_db WHERE join_patientName = '".$join_patientName."' AND join_patientTel = '".$join_patientTel."'";
+
+        $result = mysqli_query($connect,$query);
+        $row = mysqli_fetch_array($result);
+
+        if($join_patientName === $row['join_patientName'] && $join_patientTel === $row['join_patientTel'])
+        {
+          session_start();
+          $_SESSION['join_patientName'] = $row['join_patientName'];
+          $_SESSION['join_patientTel'] = $row['join_patientTel'];
+          ?>
+          
+          <script>
+          alert("로그인 되었습니다.");
+          header('location:http://apple3095.dothome.co.kr/main3.php');
+          </script>
+        
+        
+        <?php
+        }
+        else
+        {
+          echo"session fail";
+        ?>
+          <script>
+          alert("입력한 정보가 일치하지 않습니다.");
+          </script>
+        <?php
+        }
+        ?>
+     </body>
 </html>

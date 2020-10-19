@@ -1,175 +1,1185 @@
-html { 
-    background-color : #E5E5E5;
-    width : 1440px;
-    height : 900px;
-    position : absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-}
-/*폰트 설정*/
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+/****************************** main2 ******************************/
 
-body {
-font-family: 'Noto Sans KR', sans-serif;
+/*main2 경희한의원 로고*/
+#logo2 {
+    position : absolute;
+    height : 119px;
+    width : 512px;
+    left : 342px;
+    top : 140px;
+    border-radius : 0px;
 }
 
-
-/*register 경희한의원 로고*/
-.image-container{
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/*main3 경의한의원 로고*/
+#logo3 {
     position : absolute;
-    height: 119px;
-    width: 447px;
-    left: 29px;
-    top: 19px;   
-}
-/*register 대기환자*/
-.waiting-box{
-    position : absolute;
-    height: 750px;
-    width: 447px;
-    left: 29px;
-    top: 153px;
-    border-radius: 8px;
-    background-color : #ffffff;
-    border: 1px solid #E2E5E6;
-    box-sizing: border-box;
+    height : 119px;
+    width : 512px;
+    left : 342px;
+    top : 0px;
+    border-radius : 0px;
 }
 
-h1{
-    position : absolute;
-    font-family: Noto Sans KR;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 40px;
-    left : 25px;
-    top : 20px;
-    color : #373f41;
-}
 
-.reception-box{
+/* main2 증상입력(이름)*/
+#join_patientName{
     position : absolute;
-    height: 673px;
-    width: 447px;
-    left: 29px;
-    top: 926px;
-    border-radius: 8px;
-    background-color : #ffffff;
-    border: 1px solid #E2E5E6;
-    box-sizing: border-box;
-}
-
-h2{
-    position : absolute;
-    font-family: Noto Sans KR;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 40px;
-    top : 20px;
-    left : 25px;
-    color : #373f41;
-}
-
-.patient-registration{
-    position : absolute;
-    height: 119px;
-    width: 874px;
-    left: 506px;
-    top: 19px;
-    border-radius: 8px;
-    background-color : #ffffff;
-    border: 1px solid #E2E5E6;
+    width : 398px;
+    height : 48px;
+    top : 269px;
+    left : 399px;
+    background : #FFFFFF;
+    border : 1px solid #A8A9AD;
     box-sizing : border-box;
 }
-h3{
-    position : absolute;
-    font-family: Noto Sans KR;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 10px;
-    left : 46px;
-    color : #373f41;
-}
 
-.patient-information{
+/*main2 증상입력(전화번호)*/
+#join_patientTel{
     position : absolute;
-    height: 441px;
-    width: 874px;
-    left: 506px;
-    top: 153px;
-    border-radius: 8px;
-    background-color : #ffffff;
-    border: 1px solid #E2E5E6;
+    width : 398px;
+    height : 48px;
+    top : 327px;
+    left : 399px;
+    background : #ffffff;
+    border : 1px solid #a8a9ad;
     box-sizing : border-box;
 }
-h4{
+
+/*main2 증상입력(한의원 주소 검색)*/
+#join_addressSearch{
     position : absolute;
-    font-family: Noto Sans KR;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 10px;
-    left : 46px;
-    color : #373f41;
+    width : 398px;
+    height : 48px;
+    top : 385px;
+    left : 399px;
+    background : #ffffff;
+    border : 1px solid #a8a9ad;
+    box-sizing : border-box;
+    color : white;
 }
 
-.first-examination{
+/*main2 증상입력(주소 검색 버튼_*/
+#join_addressSearch2{
     position : absolute;
-    height: 578px;
-    width: 874px;
-    left: 506px;
-    top: 609px;
-    border-radius: 8px;
-    background-color : #ffffff;
-    border : 1px solid #e2e5e6;
+    width : 103px;
+    height : 48px;
+    top : 385px;
+    left : 694px;
+    background : #9D1C20;
+    color : white;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0em;
+    text-align: center;
+    border : none;
     box-sizing : border-box;
 }
-h5{
-    margin-top : 50px;
-    position: absolute;
-    width: 276px;
-    height: 62px;
+
+/*main2 증상입력(주민등록번호)*/
+#join_juminNumber{
+    position : absolute;
+    width : 398px;
+    height : 48px;
+    top : 443px;
+    left : 399px;
+    background : #ffffff;
+    border : 1px solid #a8a9ad;
+    box-sizing : border-box;
+}
+
+/*main2 증상입력(소개환자(선택))*/
+#join_recommendPatient{
+    position : absolute;
+    width : 398px;
+    height : 48px;
+    top : 501px;
+    left : 399px;
+    background : #ffffff;
+    border : 1px solid #a8a9ad;
+    box-sizing : border-box;
+}
+
+/*증상입력하기*/
+#join_enter{
+    position : absolute;
+    background-color : #9D1C20;
+    color : white;
+    height : 56px;
+    width : 398px;
+    top : 559px;
+    left : 399px;
+    border-radius : 0px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0em;
+    text-align: center;
+    border : none;
+}
+
+/****************************** main2 끝 ******************************/
+
+/****************************** main3 ******************************/
+
+/*해당되는 사항만 클릭 해 주세요(안내)*/
+#selectGuide{
+    position : absolute;
+    left : 494px;
+    top : 119px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    border : none;
+}
+#span{
+    position : absolute;
+    left : 494px;
+    top : 119px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    border : none;
+}
+
+
+/*해당되는 사항 클릭(고혈압)*/
+#select1{
+    position : absolute;
+    color : white;
+    height : 56px;
+    width : 398px;
+    left : 399px;
+    top : 178px;
+    border-radius : 10px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    border : none;
+    background-color : #b8b8b8;
+}
+
+/*해당되는 사항 클릭(당뇨)*/
+#select2{
+    position : absolute;
+    color: white;
+    height : 56px;
+    width : 398px;
+    left : 399px;
+    top : 244px;
+    border-radius : 10px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    border : none;
+    background-color : #b8b8b8;
+}
+
+/*해당되는 사항 클릭(간염)*/
+#select3{
+    position : absolute;
+    color: white;
+    height : 56px;
+    width : 398px;
+    left : 399px;
+    top : 310px;
+    border-radius : 10px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    border : none;
+    background-color : #b8b8b8;
+}
+
+/*해당되는 사항 클릭(알레르기)*/
+#select4{
+    position : absolute;
+    color: white;
+    height : 56px;
+    width : 398px;
+    left : 399px;
+    top : 376px;
+    border-radius : 10px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    border : none;
+    background-color : #b8b8b8;
+}
+
+/*해당되는 사항 클릭(수술이력)*/
+#select5{
+    position : absolute;
+    color: white;
+    height : 56px;
+    width : 398px;
+    left : 399px;
+    top : 442px;
+    border-radius : 10px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    border : none;
+    background-color : #b8b8b8;
+}
+
+/*해당되는 사항 클릭(복용약)*/
+#select6{
+    position : absolute;
+    color: white;
+    height : 56px;
+    width : 398px;
+    left : 399px;
+    top : 508px;
+    border-radius : 10px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    border : none;
+    background-color : #b8b8b8;
+}
+
+/*해당되는 사항 클릭(음주)*/
+#select7{
+    position : absolute;
+    color: white;
+    height : 56px;
+    width : 191px;
+    left : 399px;
+    top : 574px;
+    border-radius : 10px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    border : none;
+    background-color : #b8b8b8;
+}
+
+/*해당되는 사항 클릭(흡연)*/
+#select8{
+    position : absolute;
+    color: white;
+    height : 56px;
+    width : 191px;
+    left : 606px;
+    top : 574px;
+    border-radius : 10px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    border : none;
+    background-color : #b8b8b8;
+}
+
+/*해당되는 사항 클릭(제출하기)*/
+#selectEnter{
+    position : absolute;
+    color: white;
+    height : 56px;
+    width : 398px;
+    left : 399px;
+    top : 640px;
+    border-radius : 10px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    border : none;
+    background-color : #b8b8b8;
+}
+/****************************** main3 끝 ******************************/
+/****************************** main4 ******************************/
+/*환부 클릭 이미지(몸)*/
+#bodyCheck{
+    position : absolute;
+    height: 596px;
+    width: 503px;
+    left: 163px;
+    top: 84px;
+    border-radius: 0px;
+    border : none;
+}
+
+/*환부 클릭 이미지(얼굴)*/
+#faceCheck{
+    position : absolute;
+    height: 262px;
+    width: 284px;
+    left: 773px;
+    top: 68px;
+    border-radius: 0px;
+    border : none;
+}
+
+/*환부 클릭 부위(목)*/
+#part1{
+    position : absolute;
+    height: 38px;
+    width: 77px;
     left: 48px;
-    font-family: Noto Sans KR;
-    font-size: 48px;
+    top: 106px;
+    border-radius: 10px;
+    background: #B8B8B8;
+    color : white;
+    font-family: Roboto;
+    font-size: 15px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1px;
-    left : 46px;
-    color : #373f41;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    border : none;
 }
 
-.symptom{
+/*환부 클릭 부위(어깨)*/
+#part2{
     position : absolute;
-    height: 398px;
-    width: 874px;
-    left: 506px;
-    top: 1201px;
-    border-radius: 8px;
-    background-color : #ffffff;
-    border : 1px solid #e2e5e6;
-    box-sizing : border-box;
-}
-
-h6{
-    margin-top : 50px;
-    position: absolute;
-    width: 276px;
-    height: 62px;
+    height: 38px;
+    width: 77px;
     left: 48px;
-    font-family: Noto Sans KR;
-    font-size: 48px;
+    top: 185px;
+    border-radius: 10px;
+    background: #B8B8B8;
+    color : white;
+    font-family: Roboto;
+    font-size: 15px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1px;
-    left : 46px;
-    color : #373f41;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    border : none;
 }
+
+/*환부 클릭 부위(팔꿈치)*/
+#part3{
+    position : absolute;
+    height: 38px;
+    width: 77px;
+    left: 48px;
+    top: 263px;
+    border-radius: 10px;
+    background: #B8B8B8;
+    color : white;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    border : none;
+}
+
+/*환부 클릭 부위(허리)*/
+#part4{
+    position : absolute;
+    height: 38px;
+    width: 77px;
+    left: 48px;
+    top: 341px;
+    border-radius: 10px;
+    background: #B8B8B8;
+    color : white;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    border : none;
+}
+
+/*환부 클릭 부위(손, 손목)*/
+#part5{
+    position : absolute;
+    height: 38px;
+    width: 77px;
+    left: 48px;
+    top: 419px;
+    border-radius: 10px;
+    background: #B8B8B8;
+    color : white;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    border : none;
+}
+
+/*환부 클릭 부위(가슴)*/
+#part6{
+    position : absolute;
+    height: 38px;
+    width: 77px;
+    left: 686px;
+    top: 223px;
+    border-radius: 10px;
+    background: #B8B8B8;
+    color : white;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    border : none;
+}
+
+/*환부 클릭 부위(배)*/
+#part7{
+    position : absolute;
+    height: 38px;
+    width: 77px;
+    left: 686px;
+    top: 302px;
+    border-radius: 10px;
+    background: #B8B8B8;
+    color : white;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    border : none;
+}
+
+/*환부 클릭 부위(골반)*/
+#part8{
+    position : absolute;
+    height: 38px;
+    width: 77px;
+    left: 686px;
+    top: 380px;
+    border-radius: 10px;
+    background: #B8B8B8;
+    color : white;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    border : none;
+}
+
+/*환부 클릭 부위(무릎)*/
+#part9{
+    position : absolute;
+    height: 38px;
+    width: 77px;
+    left: 686px;
+    top: 458px;
+    border-radius: 10px;
+    background: #B8B8B8;
+    color : white;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    border : none;
+}
+
+
+/*환부 클릭 부위(발, 발목)*/
+#part10{
+    position : absolute;
+    height: 38px;
+    width: 77px;
+    left: 686px;
+    top: 536px;
+    border-radius: 10px;
+    background: #B8B8B8;
+    color : white;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    border : none;
+}
+
+/*환부 클릭 부위(눈)*/
+#part11{
+    position : absolute;
+    height: 38px;
+    width: 77px;
+    left: 1089px;
+    top: 170px;
+    border-radius: 10px;
+    background: #B8B8B8;
+    color : white;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    border : none;
+}
+
+/*환부 클릭 부위(귀)*/
+#part12{
+    position : absolute;
+    height: 38px;
+    width: 77px;
+    left: 1089px;
+    top: 248px;
+    border-radius: 10px;
+    background: #B8B8B8;
+    color : white;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    border : none;
+}
+
+/*환부 클릭 부위(코)*/
+#part13{
+    position : absolute;
+    height: 38px;
+    width: 77px;
+    left: 1091px;
+    top: 326px;
+    border-radius: 10px;
+    background: #B8B8B8;
+    color : white;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    border : none;
+}
+
+/*환부 클릭 부위(입)*/
+#part14{
+    position : absolute;
+    height: 38px;
+    width: 77px;
+    left: 1091px;
+    top: 404px;
+    border-radius: 10px;
+    background: #B8B8B8;
+    color : white;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    border : none;
+}
+
+/*환부 클릭 부위(기타)*/
+#etc{
+    position : absolute;
+    height: 56px;
+    width: 347px;
+    border-radius: 10px;
+    left: 795px;
+    top: 562px;
+    border-radius: 10px;
+    background: #B8B8B8;
+    color : white;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    border : none;
+}
+
+/*환부 클릭 부위(기타)*/
+#selectEnter2{
+    position : absolute;
+    height: 56px;
+    width: 347px;
+    border-radius: 10px;
+    left: 795px;
+    top: 635px;
+    border-radius: 10px;
+    background: #B8B8B8;
+    color : white;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    border : none;
+}
+
+/*환부 지점*/
+#outcircle1 {
+    position : absolute;
+    background: #9D1C20;
+    top : 167px;
+    left : 281px;
+    border-radius: 50%;
+    height:28px;
+    width:28px;
+    border: 3px solid #9D1C20;
+    box-sizing: border-box;
+    background: transparent;
+    
+}
+#incircle1 {
+    background: #9d1c20;
+    top : 174px;
+    left : 288px;
+    margin-left : 4px;
+    margin-top : 4px;
+    border-radius: 50%;
+    height:14px;
+    width:14px;
+}
+
+/*환부 지점(어깨)*/
+#outcircle2 {
+    position : absolute;
+    background: #9D1C20;
+    top : 195px;
+    left : 233px;
+    border-radius: 50%;
+    height:28px;
+    width:28px;
+    border: 3px solid #9D1C20;
+    box-sizing: border-box;
+    background: transparent;
+}
+#incircle2 {
+    background: #9d1c20;
+    top : 202px;
+    left : 240px;
+    margin-left : 4px;
+    margin-top : 4px;
+    border-radius: 50%;
+    height:14px;
+    width:14px;
+}
+
+/*환부 지점(팔꿈치)*/
+#outcircle3 {
+    position : absolute;
+    background: #9D1C20;
+    top : 302px;
+    left : 205px;
+    border-radius: 50%;
+    height:28px;
+    width:28px;
+    border: 3px solid #9D1C20;
+    box-sizing: border-box;
+    background: transparent;
+}
+#incircle3 {
+    background: #9d1c20;
+    top : 309px;
+    left : 212px;
+    margin-left : 4px;
+    margin-top : 4px;
+    border-radius: 50%;
+    height:14px;
+    width:14px;
+}
+
+/*환부 지점(허리)*/
+#outcircle4 {
+    position : absolute;
+    background: #9D1C20;
+    top : 288px;
+    left : 281px;
+    border-radius: 50%;
+    height:28px;
+    width:28px;
+    border: 3px solid #9D1C20;
+    box-sizing: border-box;
+    background: transparent;
+}
+#incircle4 {
+    background: #9d1c20;
+    top : 295px;
+    left : 288px;
+    margin-left : 4px;
+    margin-top : 4px;
+    border-radius: 50%;
+    height:14px;
+    width:14px;
+}
+
+/*환부 지점(손, 손목)*/
+#outcircle5 {
+    position : absolute;
+    background: #9D1C20;
+    top : 368px;
+    left : 191px;
+    border-radius: 50%;
+    height:28px;
+    width:28px;
+    border: 3px solid #9D1C20;
+    box-sizing: border-box;
+    background: transparent;
+}
+#incircle5 {
+    background: #9d1c20;
+    top : 375px;
+    left : 198px;
+    margin-left : 4px;
+    margin-top : 4px;
+    border-radius: 50%;
+    height:14px;
+    width:14px;
+}
+
+/*환부 지점(가슴)*/
+#outcircle6 {
+    position : absolute;
+    background: #9D1C20;
+    top : 231px;
+    left : 527px;
+    border-radius: 50%;
+    height:28px;
+    width:28px;
+    border: 3px solid #9D1C20;
+    box-sizing: border-box;
+    background: transparent;
+}
+#incircle6 {
+    background: #9d1c20;
+    top : 238px;
+    left : 534px;
+    margin-left : 4px;
+    margin-top : 4px;
+    border-radius: 50%;
+    height:14px;
+    width:14px;
+}
+
+/*환부 지점(배)*/
+#outcircle7 {
+    position : absolute;
+    background: #9D1C20;
+    top : 316px;
+    left : 527px;
+    border-radius: 50%;
+    height:28px;
+    width:28px;
+    border: 3px solid #9D1C20;
+    box-sizing: border-box;
+    background: transparent;
+}
+#incircle7 {
+    background: #9d1c20;
+    top : 323px;
+    left : 534px;
+    margin-left : 4px;
+    margin-top : 4px;
+    border-radius: 50%;
+    height:14px;
+    width:14px;
+}
+
+/*환부 지점(골반)*/
+#outcircle8 {
+    position : absolute;
+    background: #9D1C20;
+    top : 382px;
+    left : 562px;
+    border-radius: 50%;
+    height:28px;
+    width:28px;
+    border: 3px solid #9D1C20;
+    box-sizing: border-box;
+    background: transparent;
+}
+#incircle8 {
+    background: #9d1c20;
+    top : 382px;
+    left : 562px;
+    margin-left : 4px;
+    margin-top : 4px;
+    border-radius: 50%;
+    height:14px;
+    width:14px;
+}
+
+/*환부 지점(무릎)*/
+#outcircle9 {
+    position : absolute;
+    background: #9D1C20;
+    top : 492px;
+    left : 555px;
+    border-radius: 50%;
+    height:28px;
+    width:28px;
+    border: 3px solid #9D1C20;
+    box-sizing: border-box;
+    background: transparent;
+}
+#incircle9 {
+    background: #9d1c20;
+    top : 499px;
+    left : 562px;
+    margin-left : 4px;
+    margin-top : 4px;
+    border-radius: 50%;
+    height:14px;
+    width:14px;
+}
+
+/*환부 지점(발, 발목)*/ 
+#outcircle10 {
+    position : absolute;
+    background: #9D1C20;
+    top : 607px;
+    left : 555px;
+    border-radius: 50%;
+    height:28px;
+    width:28px;
+    border: 3px solid #9D1C20;
+    box-sizing: border-box;
+    background: transparent;
+}
+#incircle10 {
+    background: #9d1c20;
+    top : 614px;
+    left : 562px;
+    margin-left : 4px;
+    margin-top : 4px;
+    border-radius: 50%;
+    height:14px;
+    width:14px;
+}
+
+
+/*환부 지점(눈)*/ 
+#outcircle11 {
+    position : absolute;
+    background: #9D1C20;
+    top : 178px;
+    left : 926px;
+    border-radius: 50%;
+    height:22px;
+    width:22px;
+    border: 3px solid #9D1C20;
+    box-sizing: border-box;
+    background: transparent;
+}
+#incircle11 {
+    background: #9d1c20;
+    top : 183px;
+    left : 931px;
+    margin-left : 2.5px;
+    margin-top : 2.5px;
+    border-radius: 50%;
+    height:11px;
+    width:11px;
+}
+
+
+/*환부 지점(귀)*/ 
+#outcircle12 {
+    position : absolute;
+    background: #9D1C20;
+    top : 195px;
+    left : 953px;
+    border-radius: 50%;
+    height:22px;
+    width:22px;
+    border: 3px solid #9D1C20;
+    box-sizing: border-box;
+    background: transparent;
+}
+#incircle12 {
+    background: #9d1c20;
+    top : 200px;
+    left : 958px;
+    margin-left : 2.5px;
+    margin-top : 2.5px;
+    border-radius: 50%;
+    height:11px;
+    width:11px;
+}
+
+
+/*환부 지점(코)*/ 
+#outcircle13 {
+    position : absolute;
+    background: #9D1C20;
+    top : 201px;
+    left : 904px;
+    border-radius: 50%;
+    height:22px;
+    width:22px;
+    border: 3px solid #9D1C20;
+    box-sizing: border-box;
+    background: transparent;
+}
+#incircle13 {
+    background: #9d1c20;
+    top : 206px;
+    left : 909px;
+    margin-left : 2.5px;
+    margin-top : 2.5px;
+    border-radius: 50%;
+    height:11px;
+    width:11px;
+}
+
+/*환부 지점(입)*/ 
+#outcircle14 {
+    position : absolute;
+    background: #9D1C20;
+    top : 223px;
+    left : 904px;
+    border-radius: 50%;
+    height:22px;
+    width:22px;
+    border: 3px solid #9D1C20;
+    box-sizing: border-box;
+    background: transparent;
+}
+#incircle14 {
+    background: #9d1c20;
+    top : 228px;
+    left : 909px;
+    margin-left : 2.5px;
+    margin-top : 2.5px;
+    border-radius: 50%;
+    height:11px;
+    width:11px;
+}
+
+/*대각선(목)*/
+#diagonal1{
+    margin-top : 153px;
+    margin-left : 120px;
+    width : 178.99px;
+    height: 1px;
+    background-color: #9d1c20;
+    transform : rotate(-161.77deg);
+}
+
+/*대각선(어깨)*/
+#diagonal2{
+    margin-top : 52px;
+    margin-left : 125px;
+    width : 122.1px;
+    height: 1px;
+    background-color: #9d1c20;
+    transform : rotate(-177.65deg);
+}
+
+/*대각선(팔꿈치)*/
+#diagonal3{
+    margin-top : 91px;
+    margin-left : 122px;
+    width : 99.96px;
+    height: 1px;
+    background-color: #9d1c20;
+    transform : rotate(-160.11deg);
+}
+
+/*대각선(허리)*/
+#diagonal4{
+    margin-top : 31px;
+    margin-left : 120px;
+    width : 179.62px;
+    height: 1px;
+    background-color: #9d1c20;
+    transform : rotate(161.16deg);
+}
+
+/*대각선(손, 손목)*/
+#diagonal5{
+    margin-top : 78px;
+    margin-left : 115px;
+    width : 97.65px;
+    height: 1px;
+    background-color: #9d1c20;
+    transform : rotate(145.01deg);
+}
+
+/*대각선(가슴)*/
+#diagonal6{
+    position : absolute;
+    top : 245px;
+    left : 541px;
+    width : 145px;
+    height: 1px;
+    background-color: #9d1c20;
+    transform : rotate(180deg);
+}
+
+/*대각선(배)*/
+#diagonal7{
+    position : absolute;
+    top : 324px;
+    left : 541px;
+    width : 145.34px;
+    height: 1px;
+    background-color: #9d1c20;
+    transform : rotate(176.05deg);
+}
+
+
+/*대각선(골반)*/
+#diagonal8{
+    position : absolute;
+    top : 396px;
+    left : 576px;
+    width : 110.04px;
+    height: 1px;
+    background-color: #9d1c20;
+    transform : rotate(-178.44deg);
+}
+
+/*대각선(무릎)*/
+#diagonal9{
+    position : absolute;
+    top : 492px;
+    left : 567px;
+    width : 120.54px;
+    height: 1px;
+    background-color: #9d1c20;
+    transform : rotate(168.08deg);
+}
+
+/*대각선(발, 발목)*/
+#diagonal10{
+    position : absolute;
+    top : 588px;
+    left : 561px;
+    width : 134.33px;
+    height: 1px;
+    background-color: #9d1c20;
+    transform : rotate(150.57deg);
+}
+
+/*대각선(눈)*/
+#diagonal11{
+    position : absolute;
+    top : 188px;
+    left : 937px;
+    width : 152px;
+    height: 1px;
+    background-color: #9d1c20;
+}
+
+/*대각선(귀)*/
+#diagonal12{
+    position : absolute;
+    top : 236px;
+    left : 957px;
+    width : 139.09px;
+    height: 1px;
+    background-color: #9d1c20;
+    transform : rotate(26.01deg);
+}
+
+/*대각선(코)*/
+#diagonal13{
+    position : absolute;
+    top : 280px;
+    left : 894px;
+    width : 219.62px;
+    height: 1px;
+    background-color: #9d1c20;
+    transform : rotate(37.6deg);
+}
+
+/*대각선(입)*/
+#diagonal14{
+    position : absolute;
+    top : 328px;
+    left : 874px;
+    width : 258.26px;
+    height: 1px;
+    background-color: #9d1c20;
+    transform : rotate(47.04deg);
+}
+
+/*접수하기*/
+#selectEnter2{
+    background-color : #9d1c20;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
