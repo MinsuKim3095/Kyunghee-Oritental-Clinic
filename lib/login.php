@@ -14,7 +14,7 @@
         $join_patientName=$_POST['join_patientName'];
         $join_patientTel=$_POST['join_patientTel'];
 
-        $query = "SELECT * FROM patient_db WHERE join_patientName = '".$join_patientName."' AND join_patientTel = '".$join_patientTel."'";
+        $query = "SELECT * FROM patient_db WHERE join_patientName = '$join_patientName' AND join_patientTel = '$join_patientTel'";
 
         $result = mysqli_query($connect,$query);
         $row = mysqli_fetch_array($result);
@@ -28,7 +28,7 @@
           
           <script>
           alert("로그인 되었습니다.");
-          header('location:http://apple3095.dothome.co.kr/main3.php');
+          location.href='http://apple3095.dothome.co.kr/main3.php';
           </script>
         
         

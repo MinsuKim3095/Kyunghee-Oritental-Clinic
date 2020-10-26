@@ -23,6 +23,6 @@
         <button id = select6 onclick = 'colorChange()'>복용약</button>
         <button id = select7 onclick = 'colorChange()'>음주</button>
         <button id = select8 onclick = 'colorChange()'>흡연</button>
-        <div><button id = selectEnter type="button" onclick="location.href='./main4.html' ">제출하기</button></div>
+        <div><button id = selectEnter type="button" onclick="location.href='./main4.php' ">제출하기</button></div>
 </body>
 </html>
