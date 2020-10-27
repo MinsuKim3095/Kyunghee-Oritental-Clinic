@@ -3,8 +3,8 @@
   <head></head>
   <body>
    <?php
-    echo "name : {$_POST['patientName']}<br/>";
-    echo "tel : {$_POST['patientTel']}<br/>";
+    echo "name : {$_POST['join_patientName']}<br/>";
+    echo "tel : {$_POST['join_patientTel']}<br/>";
     ?>
   </body>
 </html>

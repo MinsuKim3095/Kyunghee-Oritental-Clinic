@@ -4,6 +4,7 @@
 
 <head>
     <meta charset = "utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <title>경희한의원</title>
     <link rel = 'stylesheet' href = './css/background.css'/>
     <link rel = 'stylesheet' href = './css/style2.css'/>

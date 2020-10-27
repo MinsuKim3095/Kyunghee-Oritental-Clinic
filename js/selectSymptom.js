@@ -1,3 +1,5 @@
-function colorChange(){
-    var color = ['#9D1C20'];
-}
+document.querySelectorAll('.stylebutton').forEach(function(e) {
+    e.addEventListener('click', function() {
+      this.style.backgroundColor = "#9d1c20;";
+    })
+  });
