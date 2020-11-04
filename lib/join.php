@@ -5,11 +5,7 @@
     <title>patient info</title>
     <body>
         <?php
-        $host = 'localhost';
-        $user = 'apple3095';
-        $pw = 'ye6428ye!';
-        $dbName = 'apple3095';
-        $mysqli = new mysqli($host, $user, $pw, $dbName);
+            include "config.php";
             $join_patientName = $_POST['join_patientName'];
             $join_patientTel = $_POST['join_patientTel'];
             $join_addressSearch = $_POST[ 'join_addressSearch'];

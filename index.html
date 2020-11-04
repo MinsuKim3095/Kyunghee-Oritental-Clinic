@@ -11,6 +11,16 @@
     <title>경희한의원</title>
     <link rel = 'stylesheet' href = 'css\background.css'/>
     <link rel = 'stylesheet' href = 'css\style.css'/>
+    <script>
+    $.ajax({
+        type : "POST",
+        url : "login.php",
+        data : {join_patientName : 'join_patientName', join_patientTel : 'join_patientTel'},
+        dataType : "text",
+        error : function(){alert("통신실패!!");},
+        success : function(res){alert(res);}
+    });
+    </script>
 </head>   
 
 

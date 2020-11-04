@@ -2,7 +2,7 @@
 <html lang="ko">
   <head>
     <meta charset="utf-8">
-    <title>patient info</title>
+    <title>login</title>
     <body>
         <?php
         $host = 'localhost';
