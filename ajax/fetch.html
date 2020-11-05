@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+    <body>
+        <article>
+
+        </article>
+        <input type="button" value="fetch" onclick="
+            /*fetch('css').then(function(response){
+                response.text().then(function(text){
+                    document.querySelector('article').innerHTML=text;
+                })
+            })*/
+
+            //Asynchronous[비동기로 실행중] html이 fetch되고있는 동안 console.log(1)과 (2)가 실행이 됨.
+            function callbackme(){
+                console.log('response end');
+            }
+            fetch('html').then(function(response){
+                if(response.status == '404'){
+                    alert('Not found')
+                }
+            });
+            console.log(1);
+            console.log(2);
+        ">
+    </body>
+</html>
