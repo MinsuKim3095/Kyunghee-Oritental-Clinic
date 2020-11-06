@@ -8,6 +8,7 @@
     <title>경희한의원</title>
     <link rel = 'stylesheet' href = 'css/background.css'/>
     <link rel = 'stylesheet' href = 'css/style2.css'/>
+    <script type = 'text/javascript' src='./js/selectSymptom.js'></script>
 </head>   
 
 
@@ -15,8 +16,7 @@
     <main>
         <a href = 'http://apple3095.dothome.co.kr/index.html'><img id = 'logo3' src='./images/logo.png' alt='Kyunghee Oriental Clinic'></a>
         <div id = selectGuide>해당하는 사항만 클릭해주세요</div>
-        <script type='text/javascript' src='selectSymptom.js'></script>
-        <button id = select1 type = submit class = stylebutton onclick = 'colorChange()'>고혈압</button>
+        <button id = select1 type = submit class = stylebutton onclick = 'valueChange()' value = '0'>고혈압</button>
         <button id = select2 type = submit class = stylebutton onclick = 'colorChange()'>당뇨</button>
         <button id = select3 type = submit class = stylebutton onclick = 'colorChange()'>간염</button>
         <button id = select4 type = submit class = stylebutton onclick = 'colorChange()'>알레르기</button>

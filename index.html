@@ -20,7 +20,7 @@
             $.ajax({
                 type:'POST',
                 url:action,
-                data:form_data
+                data:form_data,
                 success:function(response){
                     if(response.trim() == 'success'){
                         sessionStorage.setItem('join_patientName',form_data.join_patientName);
