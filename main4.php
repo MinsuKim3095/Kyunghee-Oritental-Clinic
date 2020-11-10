@@ -3,6 +3,9 @@
 
 
 <head>
+    <?php
+        session_start();
+        ?>
     <meta charset = "utf-8">
     <title>경희한의원</title>
     <link rel = 'stylesheet' href = 'css/background.css'/>
@@ -15,7 +18,7 @@
     <div>
     <img id = 'faceCheck' src = './images/image 2.png'/>
     </div>
-    <script type='text/javascript' src='selectSymptom.js'></script>
+    <!--<script type='text/javascript' src='selectSymptom.js'></script>-->
     <button id = part1 onclick = 'colorChange2()'>목</button>
     <button id = part2 onclick = 'colorChange2()'>어깨</button>
     <button id = part3 onclick = 'colorChange2()'>팔꿈치</button>

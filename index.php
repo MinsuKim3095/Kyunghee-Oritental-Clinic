@@ -15,7 +15,7 @@
             var action = $('#Login').attr('action');
             var form_data = {
                 join_patientName : $("#join_patientName").val(),
-                join_patientTel : $("join_patientTel").val()
+                join_patientTel : $("#join_patientTel").val()
             };
             $.ajax({
                 type:'POST',
