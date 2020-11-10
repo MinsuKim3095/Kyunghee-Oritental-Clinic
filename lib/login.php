@@ -28,7 +28,7 @@
           
           <script>
           alert("로그인 되었습니다.");
-          location.href='http://apple3095.dothome.co.kr/main3.php';
+          location.href='/main3.php';
           </script>
         
         

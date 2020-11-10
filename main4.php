@@ -102,5 +102,5 @@
     <div id = diagonal14></div>
 
     <div><button id = etc type="button">기타</button></div>
-    <div><button id = selectEnter2 type="button" onclick="location.href='./main4.html' ">접수하기</button></div>
+    <div><button id = selectEnter2 type="button" onclick="location.href='./index.php' ">접수하기</button></div>
 </body>
