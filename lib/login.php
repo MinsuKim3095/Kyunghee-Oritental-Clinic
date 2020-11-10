@@ -6,9 +6,9 @@
     <body>
         <?php
         $host = 'localhost';
-        $user = 'apple3095';
-        $pw = 'ye6428ye!';
-        $dbName = 'apple3095';
+        $user = 'root';
+        $pw = 'autoset';
+        $dbName = 'kyunghee';
         $connect = new mysqli($host, $user, $pw, $dbName);
 
         $join_patientName=$_POST['join_patientName'];

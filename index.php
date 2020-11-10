@@ -63,14 +63,14 @@
 
 
 <body>
-    <a href = './index.html'><img id = 'logo' src='./images/logo.png' alt='Kyunghee Oriental Clinic'></a>
+    <a href = './index.php'><img id = 'logo' src='./images/logo.png' alt='Kyunghee Oriental Clinic'></a>
             <form id = 'Login' name = 'Login' action = './lib/login.php' method='post'>
                 <div><input id = 'join_patientName' name='join_patientName' type='text' placeholder = '  이름' autocomplete='off' required></div>
                 <div><input id = 'join_patientTel' name='join_patientTel'type='tel' placeholder = '  전화번호' autocomplete='off' required></div>
                 <div><button id = 'enter' type="submit">증상입력하기</button></div>
             </form>
                 <div><span>처음 방문하셨습니까?</span>
-                <a id ='join' href = 'http://apple3095.dothome.co.kr/main2' target='_self'>환자등록</a></div>
+                <a id ='join' href = './main2.php' target='_self'>환자등록</a></div>
 
 </body>
 </html>

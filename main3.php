@@ -14,7 +14,7 @@
 
 <body id = 'colorCont'>
     <main>
-        <a href = 'http://apple3095.dothome.co.kr/index.html'><img id = 'logo3' src='./images/logo.png' alt='Kyunghee Oriental Clinic'></a>
+        <a href = './index.php'><img id = 'logo3' src='./images/logo.png' alt='Kyunghee Oriental Clinic'></a>
         <div id = selectGuide>해당하는 사항만 클릭해주세요</div>
         <button id = select1 type = submit class = stylebutton onclick = 'valueChange()' value = '0'>고혈압</button>
         <button id = select2 type = submit class = stylebutton onclick = 'colorChange()'>당뇨</button>

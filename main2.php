@@ -14,7 +14,7 @@
 <body>
     <main>
         <form method='post' action = "./lib/join.php">
-            <a href = './index.html'><img id = 'logo2' src='./images/logo.png' alt='Kyunghee Oriental Clinic'></a>
+            <a href = './index.php'><img id = 'logo2' src='./images/logo.png' alt='Kyunghee Oriental Clinic'></a>
                 <div><input id = 'join_patientName' name = 'join_patientName' type='text' placeholder = ' 이름' required></div>
                 <div><input id = 'join_patientTel' name ='join_patientTel' type = 'tel' placeholder = ' 전화번호' required></div>
                 <div><input id = 'join_addressSearch' name = 'join_addressSearch' type = 'text' placeholder = ' 한의원 주소를 검색하세요' required></div>
