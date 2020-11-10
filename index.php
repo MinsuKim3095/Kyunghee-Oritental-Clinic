@@ -35,29 +35,6 @@
             });
         });
     });
-    /*$(document).ready(function(){
-        $('#Login').submit(function(e){
-            e.preventDefault();
-            $.ajax({
-                type:'POST',
-                url:'http://apple3095.dothome.co.kr/lib/login',
-                data:$(this).serialize(),
-                success:function(result){
-                    if(result=='success'){
-                        alert("로그인 성공");
-                        location.replace('http://apple3095.dothome.co.kr/main3')
-                    }else if(result=='Fail:session'){
-                        alert("세션 저장 실패");
-                    }else if(result=='Fail:empty'){
-                        alert("회원 정보가 없습니다. 회원가입을 해주세요.");
-                    }
-                },
-                error:function(xtr,status,error){
-                    alert(xtr+":"+status+":"+error);
-                }
-            });
-        });
-    });*/
     </script>
 </head>   
 
