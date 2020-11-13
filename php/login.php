@@ -8,12 +8,12 @@
 
     <body>
         <?php
-         $host = 'localhost';
-         $user = 'root';
-         $pw = 'autoset';
-         $dbName = 'kyunghee';
-         $connect = new mysqli($host, $user, $pw, $dbName);
-// include "config.php"
+        $host = 'localhost';
+        $user = 'root';
+        $pw = 'autoset';
+        $dbName = 'kyunghee';
+        $connect = new mysqli($host, $user, $pw, $dbName);
+
         $join_patientName=$_POST['join_patientName'];
         $join_patientTel=$_POST['join_patientTel'];
 
@@ -28,13 +28,13 @@
           $_SESSION['join_patientName'] = $row['join_patientName'];
           $_SESSION['join_patientTel'] = $row['join_patientTel'];
           ?>
-          
+
           <script>
           alert("로그인 되었습니다.");
-          location.href='/sympton1.php';
+          location.href='/symptom1.php';
           </script>
-        
-        
+
+
         <?php
         }
         else
