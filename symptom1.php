@@ -29,6 +29,8 @@
     <script type="text/javascript"> 
         // 제출하기 버튼을 누를 경우,          
         $(document).ready(function(){
+            alert(sessionStorage.getItem("join_patientName"));
+            alert(sessionStorage.getItem("join_patientTel"));
             $('submitInfo').click(function(){
                 var action = $('submitInfo').attr('action');
                 var form_data = {
